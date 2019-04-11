@@ -1,0 +1,12 @@
+{
+  "name": "Apidoc project lookup stduent",
+  "version": "1.0.0",
+  "description": "Apidoc project lookup stduent",
+  "title": "Apidoc project lookup stduent",
+  "url" : "http://www.lookupstudent.pikalong.top/api/v1",
+  "sampleUrl": "http://www.lookupstudent.pikalong.top/api/v1",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
