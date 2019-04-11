@@ -4,7 +4,7 @@
  * @apiName GetStudent
  * @apiGroup Student
  *
- * @apiDescription Compare Verison
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} code Require, Mã sinh viên.
  *
@@ -18,7 +18,7 @@ function getStudent() { return; }
  * @apiName GetRanking
  * @apiGroup Student
  *
- * @apiDescription Compare Verison
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} course_id Require, id khóa học cần lấy, mặc định lấy khóa gần nhất theo thời gian cập nhất db.
  *
@@ -33,7 +33,7 @@ function getRanking() { return; }
  * @apiName getSchedules
  * @apiGroup Student
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} msv Require, Mã sinh viên.
  * @apiParam {String} semester Mặc định là học kỳ gần nhất.
@@ -47,7 +47,7 @@ function getSchedules() { return; }
  * @apiName getSchedule
  * @apiGroup Schedule
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} code Require, Mã lịch học.
  *
@@ -55,12 +55,12 @@ function getSchedules() { return; }
 function getSchedule() { return; }
 
 /**
- * @api {get} schedule/view List schedule exam with msv
+ * @api {get} /schedule/view List schedule exam with msv
  * @apiVersion 1.0.0
  * @apiName getScheduleExams
  * @apiGroup Schedule
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} msv Require, Mã sinh viên.
  * @apiParam {String} semester Mặc định là học kỳ gần nhất.
@@ -74,7 +74,7 @@ function getScheduleExams() { return; }
  * @apiName getScheduleExam
  * @apiGroup Schedule
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  *
  * @apiParam {Number} code Require, Mã lịch thi.
  *
@@ -88,7 +88,7 @@ function getScheduleExam() { return; }
  * @apiName getSemesters
  * @apiGroup semester
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  *
  */
 function getSemesters() { return; }
@@ -99,7 +99,7 @@ function getSemesters() { return; }
  * @apiName getSemester
  * @apiGroup semester
  *
- * @apiDescription Compare Verison .
+ * @apiDescription Compare Verisons
  * @apiParam {Number} id Require, Id học kỳ.
  *
  */

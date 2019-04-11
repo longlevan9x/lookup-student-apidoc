@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "name": "getSchedule",
     "group": "Schedule",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -24,7 +24,7 @@
     "groupTitle": "Schedule",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/schedule/view"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/schedule/view"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "version": "1.0.0",
     "name": "getScheduleExam",
     "group": "Schedule",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -53,18 +53,18 @@
     "groupTitle": "Schedule",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/schedule-exam/view"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/schedule-exam/view"
       }
     ]
   },
   {
     "type": "get",
-    "url": "schedule/view",
+    "url": "/schedule/view",
     "title": "List schedule exam with msv",
     "version": "1.0.0",
     "name": "getScheduleExams",
     "group": "Schedule",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -89,7 +89,7 @@
     "groupTitle": "Schedule",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1schedule/view"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/schedule/view"
       }
     ]
   },
@@ -100,7 +100,7 @@
     "version": "1.0.0",
     "name": "GetRanking",
     "group": "Student",
-    "description": "<p>Compare Verison</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -131,7 +131,7 @@
     "groupTitle": "Student",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/student/ranking"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/student/ranking"
       }
     ]
   },
@@ -142,7 +142,7 @@
     "version": "1.0.0",
     "name": "GetStudent",
     "group": "Student",
-    "description": "<p>Compare Verison</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -173,7 +173,7 @@
     "groupTitle": "Student",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/student/view"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/student/view"
       }
     ]
   },
@@ -184,7 +184,7 @@
     "version": "1.0.0",
     "name": "getSchedules",
     "group": "Student",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -209,7 +209,7 @@
     "groupTitle": "Student",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/schedules"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/schedules"
       }
     ]
   },
@@ -220,7 +220,7 @@
     "version": "1.0.0",
     "name": "getSemester",
     "group": "semester",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -238,7 +238,7 @@
     "groupTitle": "semester",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/semester"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/semester"
       }
     ]
   },
@@ -249,12 +249,12 @@
     "version": "1.0.0",
     "name": "getSemesters",
     "group": "semester",
-    "description": "<p>Compare Verison .</p>",
+    "description": "<p>Compare Verisons</p>",
     "filename": "lookup_student/example.js",
     "groupTitle": "semester",
     "sampleRequest": [
       {
-        "url": "http://localhost/tracuuthongtin-php/api/v1/semester"
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/semester"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
-  "name": "Apidoc project lookup stduent",
+  "name": "Apidoc project lookup student",
   "version": "1.0.0",
-  "description": "Apidoc project lookup stduent",
-  "title": "Apidoc project lookup stduent",
+  "description": "Apidoc project lookup student",
+  "title": "Apidoc project lookup student",
   "url" : "http://www.lookupstudent.pikalong.top/api/v1",
   "sampleUrl": "http://www.lookupstudent.pikalong.top/api/v1",
   "template": {
