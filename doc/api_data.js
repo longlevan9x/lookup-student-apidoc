@@ -130,7 +130,7 @@ define({ "api": [
           },
           {
             "group": "Success 200",
-            "type": "string_int",
+            "type": "string",
             "optional": false,
             "field": "result",
             "description": "<p>Mã sinh viên</p>"

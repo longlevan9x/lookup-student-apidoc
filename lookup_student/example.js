@@ -56,7 +56,7 @@ function getStudent() { return; }
  *
  * @apiSuccess {string}   message  success
  * @apiSuccess {int}   status  1
- * @apiSuccess {string_int}   result  Mã sinh viên
+ * @apiSuccess {string}   result  Mã sinh viên
 
  * @apiErrorExample Response Error:
  *      {
