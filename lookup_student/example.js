@@ -47,6 +47,27 @@
 function getStudent() { return; }
 
 /**
+ * @api {get} /student/{student_code}/check Kiểm tra thông tin sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CheckStudent
+ * @apiGroup Student
+ *
+ * @apiDescription Compare Verisons
+ *
+ * @apiSuccess {string}   message  success
+ * @apiSuccess {int}   status  1
+ * @apiSuccess {string_int}   result  Mã sinh viên
+
+ * @apiErrorExample Response Error:
+ *      {
+ *       message: "no data",
+ *       status: 2,
+ *       result: "Mã sinh viên không tồn tại",
+ *     }
+ */
+function checkStudent() { return; }
+
+/**
  * @api {get} /student/{student_code}/schedules Danh sách lịch học của 1 sinh viên
  * @apiVersion 1.0.0
  * @apiName getSchedules

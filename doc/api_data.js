@@ -105,6 +105,58 @@ define({ "api": [
   },
   {
     "type": "get",
+    "url": "/student/{student_code}/check",
+    "title": "Kiểm tra thông tin sinh viên",
+    "version": "1.0.0",
+    "name": "CheckStudent",
+    "group": "Student",
+    "description": "<p>Compare Verisons</p>",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "string",
+            "optional": false,
+            "field": "message",
+            "description": "<p>success</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "int",
+            "optional": false,
+            "field": "status",
+            "description": "<p>1</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "string_int",
+            "optional": false,
+            "field": "result",
+            "description": "<p>Mã sinh viên</p>"
+          }
+        ]
+      }
+    },
+    "error": {
+      "examples": [
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"no data\",\n  status: 2,\n  result: \"Mã sinh viên không tồn tại\",\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Student",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/student/{student_code}/check"
+      }
+    ]
+  },
+  {
+    "type": "get",
     "url": "/student/ranking",
     "title": "View Student ranking",
     "version": "1.0.0",
