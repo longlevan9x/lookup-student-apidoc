@@ -1,6 +1,86 @@
 [
   {
     "type": "get",
+    "url": "/crawl/money-pay/{student_code}",
+    "title": "Crawl công nợ của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlMoneyPay",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/money-pay/{student_code}"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/crawl/schedule-exam/{student_code}",
+    "title": "Crawl lịch thi của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlSchedueExam",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/schedule-exam/{student_code}"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/crawl/schedule/{student_code}",
+    "title": "Crawl lịch học của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlSchedule",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/schedule/{student_code}"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/crawl/semester",
+    "title": "Crawl danh sách học kỳ của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlSemester",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/semester"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/crawl/student/{student_code}",
+    "title": "Crawl thông tin của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlStudent",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/student/{student_code}"
+      }
+    ]
+  },
+  {
+    "type": "get",
     "url": "/schedule/{schedule_code}",
     "title": "Chi tiết lịch học",
     "version": "1.0.0",

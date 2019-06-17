@@ -219,3 +219,48 @@ function getSemester() { return; }
  *
  */
 function getRanking() { return; }
+
+/**
+ * @api {get} /crawl/student/{student_code} Crawl thông tin của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlStudent
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ */
+function crawlStudent() {return;}
+ 
+/**
+ * @api {get} /crawl/schedule/{student_code} Crawl lịch học của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlSchedule
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ */
+function crawlSchedule() {return;}
+ 
+/**
+ * @api {get} /crawl/schedule-exam/{student_code} Crawl lịch thi của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlSchedueExam
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ */
+function crawlSchedueExam() {return;}
+ 
+/**
+ * @api {get} /crawl/money-pay/{student_code} Crawl công nợ của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlMoneyPay
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ */
+function crawlMoneyPay() {return;}
+ 
+/**
+ * @api {get} /crawl/semester Crawl danh sách học kỳ của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlSemester
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ */
+function crawlMoneyPay() {return;}
