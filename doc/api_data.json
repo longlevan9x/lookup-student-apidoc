@@ -1,6 +1,36 @@
 [
   {
     "type": "get",
+    "url": "/crawl/semester",
+    "title": "Crawl điểm của 1 sinh viên",
+    "version": "1.0.0",
+    "name": "CrawlMark",
+    "group": "Crawl",
+    "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "lookup_student/example.js",
+    "groupTitle": "Crawl",
+    "sampleRequest": [
+      {
+        "url": "http://www.lookupstudent.pikalong.top/api/v1/crawl/semester"
+      }
+    ]
+  },
+  {
+    "type": "get",
     "url": "/crawl/money-pay/{student_code}",
     "title": "Crawl công nợ của 1 sinh viên",
     "version": "1.0.0",

@@ -320,3 +320,23 @@ function crawlMoneyPay() { return; }
  *     }
  */
 function crawlSemester() { return; }
+
+/**
+ * @api {get} /crawl/semester Crawl điểm của 1 sinh viên
+ * @apiVersion 1.0.0
+ * @apiName CrawlMark
+ * @apiGroup Crawl
+ * @apiDescription Compare Verisons
+ * @apiErrorExample Response Success:
+ *      {
+ *       message: "success",
+ *       status: 1,
+ *     }
+ * @apiErrorExample Response Error:
+ *      {
+ *       message: "error",
+ *       status: 2,
+ *       result: null,
+ *     }
+ */
+function crawlMark() { return; }
