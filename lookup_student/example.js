@@ -227,7 +227,7 @@ function getRanking() { return; }
  * @apiName CrawlStudent
  * @apiGroup Crawl
  * @apiDescription Compare Verisons
- * @apiSuccessExample Response Success:
+ * @apiErrorExample Response Success:
  *      {
  *       message: "success",
  *       status: 1,
@@ -247,7 +247,7 @@ function crawlStudent() { return; }
  * @apiName CrawlSchedule
  * @apiGroup Crawl
  * @apiDescription Compare Verisons
- * @apiSuccessExample Response Success:
+ * @apiErrorExample Response Success:
  *      {
  *       message: "success",
  *       status: 1,
@@ -267,7 +267,7 @@ function crawlSchedule() { return; }
  * @apiName CrawlSchedueExam
  * @apiGroup Crawl
  * @apiDescription Compare Verisons
- * @apiSuccessExample Response Success:
+ * @apiErrorExample Response Success:
  *      {
  *       message: "success",
  *       status: 1,
@@ -287,7 +287,7 @@ function crawlSchedueExam() { return; }
  * @apiName CrawlMoneyPay
  * @apiGroup Crawl
  * @apiDescription Compare Verisons
- * @apiSuccessExample Response Success:
+ * @apiErrorExample Response Success:
  *      {
  *       message: "success",
  *       status: 1,
@@ -302,12 +302,12 @@ function crawlSchedueExam() { return; }
 function crawlMoneyPay() { return; }
 
 /**
- * @api {get} /crawl/semester Crawl danh sách học kỳ của 1 sinh viên
+ * @api {get} /crawl/semester Crawl danh sách học kỳ
  * @apiVersion 1.0.0
  * @apiName CrawlSemester
  * @apiGroup Crawl
  * @apiDescription Compare Verisons
- * @apiSuccessExample Response Success:
+ * @apiErrorExample Response Success:
  *      {
  *       message: "success",
  *       status: 1,
