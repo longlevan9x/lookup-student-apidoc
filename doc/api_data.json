@@ -7,6 +7,20 @@
     "name": "CrawlMoneyPay",
     "group": "Crawl",
     "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "lookup_student/example.js",
     "groupTitle": "Crawl",
     "sampleRequest": [
@@ -23,6 +37,20 @@
     "name": "CrawlSchedueExam",
     "group": "Crawl",
     "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "lookup_student/example.js",
     "groupTitle": "Crawl",
     "sampleRequest": [
@@ -39,6 +67,20 @@
     "name": "CrawlSchedule",
     "group": "Crawl",
     "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "lookup_student/example.js",
     "groupTitle": "Crawl",
     "sampleRequest": [
@@ -50,11 +92,25 @@
   {
     "type": "get",
     "url": "/crawl/semester",
-    "title": "Crawl danh sách học kỳ của 1 sinh viên",
+    "title": "Crawl danh sách học kỳ",
     "version": "1.0.0",
     "name": "CrawlSemester",
     "group": "Crawl",
     "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "lookup_student/example.js",
     "groupTitle": "Crawl",
     "sampleRequest": [
@@ -71,6 +127,20 @@
     "name": "CrawlStudent",
     "group": "Crawl",
     "description": "<p>Compare Verisons</p>",
+    "error": {
+      "examples": [
+        {
+          "title": "Response Success:",
+          "content": " {\n  message: \"success\",\n  status: 1,\n}",
+          "type": "json"
+        },
+        {
+          "title": "Response Error:",
+          "content": " {\n  message: \"error\",\n  status: 2,\n  result: null,\n}",
+          "type": "json"
+        }
+      ]
+    },
     "filename": "lookup_student/example.js",
     "groupTitle": "Crawl",
     "sampleRequest": [
@@ -238,7 +308,7 @@
   {
     "type": "get",
     "url": "/student/ranking",
-    "title": "View Student ranking",
+    "title": "Danh sách xếp hạng",
     "version": "1.0.0",
     "name": "GetRanking",
     "group": "Student",
