@@ -200,7 +200,7 @@ function getSemesters() { return; }
 function getSemester() { return; }
 
 /**
- * @api {get} /student/ranking View Student ranking
+ * @api {get} /student/ranking Danh sách xếp hạng
  * @apiVersion 1.0.0
  * @apiName GetRanking
  * @apiGroup Student
@@ -319,4 +319,4 @@ function crawlMoneyPay() { return; }
  *       result: null,
  *     }
  */
-function crawlMoneyPay() { return; }
+function crawlSemester() { return; }
